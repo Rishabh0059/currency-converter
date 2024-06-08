@@ -1,0 +1,36 @@
+.container{
+    min-height: 100vh;
+    max-width: 80vw;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul{
+    display: flex;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+.container form input[type='number'],select,label{
+    font-size: 25px;
+    margin: 23px 0;
+    width: 23vw;
+}
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;   
+}
+.output{
+    display: none;
+}
